@@ -80,3 +80,30 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 100px;
+    box-sizing: border-box;
+  }
+
+  .home-page .flat-button {
+    float: left;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 124px;
+  }
+
+  .stage-logo {
+    display: none;
+  }
+}
