@@ -34,22 +34,22 @@ const Sidebar = () => (
     </nav>
     <ul>
         <li>
-            <a target='_blank' rel='noopener' href="https://www.linkedin.com/in/gujjarsaab/">
+            <a target='_blank' rel='noreferrer noopener' href="https://www.linkedin.com/in/gujjarsaab/">
                 <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noopener' href="https://github.com/gujjarsaab01">
+            <a target='_blank' rel='noreferrer noopener' href="https://github.com/gujjarsaab01">
                 <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noopener' href="https://www.instagram.com/gujjar_saab_94">
+            <a target='_blank' rel='noreferrer noopener' href="https://www.instagram.com/gujjar_saab_94">
                 <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noopener' href="https://youtube.com/@motivationmashup">
+            <a target='_blank' rel='noreferrer noopener' href="https://youtube.com/@motivationmashup">
                 <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
             </a>
         </li>
