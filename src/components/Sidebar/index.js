@@ -34,12 +34,12 @@ const Sidebar = () => (
     </nav>
     <ul>
         <li>
-            <a target='_blank' rel='noreferrer noopener' href="https://www.linkedin.com/in/gujjarsaab/">
+            <a target='_blank' rel='noreferrer noopener' href="https://www.linkedin.com/in/rajdhaman/">
                 <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
             </a>
         </li>
         <li>
-            <a target='_blank' rel='noreferrer noopener' href="https://github.com/gujjarsaab01">
+            <a target='_blank' rel='noreferrer noopener' href="https://github.com/rajdhaman">
                 <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
             </a>
         </li>

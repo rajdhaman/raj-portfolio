@@ -1,0 +1,35 @@
+.skills-section {
+  text-align: center;
+  margin-top: 2.5rem;
+
+  .skills-label {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1.9rem;
+    letter-spacing: 1px;
+  }
+
+  .skills-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .skill-pill {
+    background: rgba(200, 200, 200, 0.1);
+    border: 1px solid #222;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+    transition: background 0.25s;
+    
+    &:hover {
+      background: #ec5f5f;
+      color: #fff;
+    }
+  }
+}

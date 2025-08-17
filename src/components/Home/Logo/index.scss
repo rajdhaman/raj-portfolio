@@ -36,25 +36,50 @@
     }
     
 }
-
+// @keyframes spincube {
+//     from,
+//     to {
+//         transform: rotateY(0deg) ;
+//     }
+//     16% {
+//         transform: rotateY(30deg);
+//     }
+//     33% {
+//         transform: rotateY(90deg) ;
+//     }
+//     50% {
+//         transform: rotateY(30deg) ;
+//     }
+//     66% {
+//         transform: rotateY(-60deg) ;
+//     }
+//     83% {
+//         transform: rotateY(0deg);
+//     } 100% {
+//         transform: rotateY(50deg);
+//     }
+// }
 @keyframes spincube {
-    from,
-    to {
-        transform: rotateY(0deg) ;
-    }
-    16% {
-        transform: rotateY(-90deg);
-    }
-    33% {
-        transform: rotateY(-180deg) ;
-    }
-    50% {
-        transform: rotateY(-270deg) ;
-    }
-    66% {
-        transform: rotateY(-360deg) ;
-    }
-    83% {
-        transform: rotateY(0deg);
-    }
+  0% {
+    transform: rotateY(0deg);
+    /* Optional: slight tilt for 3D look */
+  }
+  15% {
+    transform: rotateY(45deg);
+  }
+  33% {
+    transform: rotateY(90deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  66% {
+    transform: rotateY(270deg);
+  }
+  85% {
+    transform: rotateY(315deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
